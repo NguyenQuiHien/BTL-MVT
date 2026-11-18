@@ -32,3 +32,6 @@ perf/
 .vscode/
 
 team/results/
+# Demo runtime artifacts
+demo/results/
+.streamlit/secrets.toml
