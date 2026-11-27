@@ -5,47 +5,207 @@
    <node id="Quan1">
     <coordinates><x>106.7009</x><y>10.7769</y></coordinates>
    </node>
-   <node id="ThuDuc">
-    <coordinates><x>106.7718</x><y>10.8494</y></coordinates>
+   <node id="Quan3">
+    <coordinates><x>106.6820</x><y>10.7836</y></coordinates>
+   </node>
+   <node id="Quan4">
+    <coordinates><x>106.7056</x><y>10.7578</y></coordinates>
+   </node>
+   <node id="Quan5">
+    <coordinates><x>106.6667</x><y>10.7540</y></coordinates>
+   </node>
+   <node id="Quan6">
+    <coordinates><x>106.6350</x><y>10.7481</y></coordinates>
    </node>
    <node id="Quan7">
-    <coordinates><x>106.7218</x><y>10.734</y></coordinates>
+    <coordinates><x>106.7218</x><y>10.7340</y></coordinates>
    </node>
-   <node id="BinhDuong">
-    <coordinates><x>106.652</x><y>10.9804</y></coordinates>
+   <node id="Quan8">
+    <coordinates><x>106.6283</x><y>10.7240</y></coordinates>
    </node>
    <node id="Quan10">
     <coordinates><x>106.6677</x><y>10.7746</y></coordinates>
    </node>
+   <node id="Quan11">
+    <coordinates><x>106.6433</x><y>10.7676</y></coordinates>
+   </node>
+   <node id="Quan12">
+    <coordinates><x>106.6544</x><y>10.8671</y></coordinates>
+   </node>
+   <node id="BinhTan">
+    <coordinates><x>106.6033</x><y>10.7653</y></coordinates>
+   </node>
+   <node id="BinhThanh">
+    <coordinates><x>106.7082</x><y>10.8106</y></coordinates>
+   </node>
+   <node id="GoVap">
+    <coordinates><x>106.6798</x><y>10.8387</y></coordinates>
+   </node>
+   <node id="PhuNhuan">
+    <coordinates><x>106.6822</x><y>10.7992</y></coordinates>
+   </node>
+   <node id="TanBinh">
+    <coordinates><x>106.6525</x><y>10.8014</y></coordinates>
+   </node>
+   <node id="TanPhu">
+    <coordinates><x>106.6288</x><y>10.7901</y></coordinates>
+   </node>
+   <node id="ThuDuc">
+    <coordinates><x>106.7718</x><y>10.8494</y></coordinates>
+   </node>
   </nodes>
   <links>
    <link id="HCM_L01">
-    <source>Quan1</source><target>ThuDuc</target>
-    <additionalModules><addModule><capacity>11.18</capacity><cost>0.0</cost></addModule></additionalModules>
+    <source>Quan1</source><target>Quan3</target>
+    <additionalModules><addModule><capacity>2.21</capacity><cost>0.0</cost></addModule></additionalModules>
    </link>
    <link id="HCM_L02">
-    <source>Quan1</source><target>Quan7</target>
-    <additionalModules><addModule><capacity>5.29</capacity><cost>0.0</cost></addModule></additionalModules>
+    <source>Quan1</source><target>Quan4</target>
+    <additionalModules><addModule><capacity>2.19</capacity><cost>0.0</cost></addModule></additionalModules>
    </link>
    <link id="HCM_L03">
-    <source>Quan1</source><target>BinhDuong</target>
-    <additionalModules><addModule><capacity>23.25</capacity><cost>0.0</cost></addModule></additionalModules>
+    <source>Quan1</source><target>Quan5</target>
+    <additionalModules><addModule><capacity>4.56</capacity><cost>0.0</cost></addModule></additionalModules>
    </link>
    <link id="HCM_L04">
-    <source>BinhDuong</source><target>ThuDuc</target>
-    <additionalModules><addModule><capacity>19.58</capacity><cost>0.0</cost></addModule></additionalModules>
+    <source>Quan1</source><target>Quan7</target>
+    <additionalModules><addModule><capacity>5.29</capacity><cost>0.0</cost></addModule></additionalModules>
    </link>
    <link id="HCM_L05">
     <source>Quan1</source><target>Quan10</target>
     <additionalModules><addModule><capacity>3.64</capacity><cost>0.0</cost></addModule></additionalModules>
    </link>
    <link id="HCM_L06">
-    <source>Quan10</source><target>BinhDuong</target>
-    <additionalModules><addModule><capacity>22.95</capacity><cost>0.0</cost></addModule></additionalModules>
+    <source>Quan1</source><target>BinhThanh</target>
+    <additionalModules><addModule><capacity>3.83</capacity><cost>0.0</cost></addModule></additionalModules>
    </link>
    <link id="HCM_L07">
-    <source>Quan10</source><target>Quan7</target>
-    <additionalModules><addModule><capacity>7.44</capacity><cost>0.0</cost></addModule></additionalModules>
+    <source>Quan1</source><target>PhuNhuan</target>
+    <additionalModules><addModule><capacity>3.20</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L08">
+    <source>Quan3</source><target>Quan10</target>
+    <additionalModules><addModule><capacity>1.86</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L09">
+    <source>Quan3</source><target>PhuNhuan</target>
+    <additionalModules><addModule><capacity>1.73</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L10">
+    <source>Quan4</source><target>Quan5</target>
+    <additionalModules><addModule><capacity>4.28</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L11">
+    <source>Quan4</source><target>Quan7</target>
+    <additionalModules><addModule><capacity>3.17</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L12">
+    <source>Quan4</source><target>Quan8</target>
+    <additionalModules><addModule><capacity>9.25</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L13">
+    <source>Quan5</source><target>Quan6</target>
+    <additionalModules><addModule><capacity>3.54</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L14">
+    <source>Quan5</source><target>Quan8</target>
+    <additionalModules><addModule><capacity>5.40</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L15">
+    <source>Quan5</source><target>Quan10</target>
+    <additionalModules><addModule><capacity>2.29</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L16">
+    <source>Quan5</source><target>Quan11</target>
+    <additionalModules><addModule><capacity>2.98</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L17">
+    <source>Quan6</source><target>Quan8</target>
+    <additionalModules><addModule><capacity>2.77</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L18">
+    <source>Quan6</source><target>Quan11</target>
+    <additionalModules><addModule><capacity>2.34</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L19">
+    <source>Quan6</source><target>BinhTan</target>
+    <additionalModules><addModule><capacity>3.98</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L20">
+    <source>Quan6</source><target>TanPhu</target>
+    <additionalModules><addModule><capacity>4.71</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L21">
+    <source>Quan7</source><target>Quan8</target>
+    <additionalModules><addModule><capacity>10.35</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L22">
+    <source>Quan7</source><target>ThuDuc</target>
+    <additionalModules><addModule><capacity>13.90</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L23">
+    <source>Quan10</source><target>Quan11</target>
+    <additionalModules><addModule><capacity>2.81</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L24">
+    <source>Quan10</source><target>TanBinh</target>
+    <additionalModules><addModule><capacity>3.40</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L25">
+    <source>Quan11</source><target>TanBinh</target>
+    <additionalModules><addModule><capacity>3.89</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L26">
+    <source>Quan11</source><target>TanPhu</target>
+    <additionalModules><addModule><capacity>2.96</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L27">
+    <source>Quan12</source><target>GoVap</target>
+    <additionalModules><addModule><capacity>4.18</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L28">
+    <source>Quan12</source><target>TanBinh</target>
+    <additionalModules><addModule><capacity>7.31</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L29">
+    <source>Quan12</source><target>TanPhu</target>
+    <additionalModules><addModule><capacity>9.00</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L30">
+    <source>Quan12</source><target>ThuDuc</target>
+    <additionalModules><addModule><capacity>13.09</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L31">
+    <source>BinhTan</source><target>TanPhu</target>
+    <additionalModules><addModule><capacity>3.92</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L32">
+    <source>BinhThanh</source><target>GoVap</target>
+    <additionalModules><addModule><capacity>4.43</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L33">
+    <source>BinhThanh</source><target>PhuNhuan</target>
+    <additionalModules><addModule><capacity>3.13</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L34">
+    <source>BinhThanh</source><target>ThuDuc</target>
+    <additionalModules><addModule><capacity>8.25</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L35">
+    <source>GoVap</source><target>PhuNhuan</target>
+    <additionalModules><addModule><capacity>4.39</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L36">
+    <source>GoVap</source><target>TanBinh</target>
+    <additionalModules><addModule><capacity>5.15</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L37">
+    <source>PhuNhuan</source><target>TanBinh</target>
+    <additionalModules><addModule><capacity>3.42</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L38">
+    <source>TanBinh</source><target>TanPhu</target>
+    <additionalModules><addModule><capacity>2.91</capacity><cost>0.0</cost></addModule></additionalModules>
    </link>
   </links>
  </networkStructure>
